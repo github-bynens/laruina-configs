@@ -1,0 +1,30 @@
+Linux lr-pi01 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
+
+  avahi-daemon.service           loaded active running Avahi mDNS/DNS-SD Stack
+  bluetooth.service              loaded active running Bluetooth service
+  cron.service                   loaded active running Regular background program processing daemon
+  dbus.service                   loaded active running D-Bus System Message Bus
+  dhcpcd.service                 loaded active running DHCP Client Daemon
+  getty@tty1.service             loaded active running Getty on tty1
+  hciuart.service                loaded active running Configure Bluetooth Modems connected by UART
+  lightdm.service                loaded active running Light Display Manager
+● ModemManager.service           masked active running ModemManager.service
+  nut-driver@LRPI01.service      loaded active running Network UPS Tools - device driver for LRPI01
+  nut-monitor.service            loaded active running Network UPS Tools - power device monitor and shutdown controller
+  nut-server.service             loaded active running Network UPS Tools - power devices information server
+  polkit.service                 loaded active running Authorization Manager
+  rng-tools-debian.service       loaded active running LSB: rng-tools (Debian variant)
+  rsyslog.service                loaded active running System Logging Service
+  rtkit-daemon.service           loaded active running RealtimeKit Scheduling Policy Service
+  ssh.service                    loaded active running OpenBSD Secure Shell server
+  systemd-journald.service       loaded active running Journal Service
+  systemd-logind.service         loaded active running User Login Management
+  systemd-timesyncd.service      loaded active running Network Time Synchronization
+  systemd-udevd.service          loaded active running Rule-based Manager for Device Events and Files
+  teamviewerd.service            loaded active running TeamViewer remote control daemon
+  triggerhappy.service           loaded active running triggerhappy global hotkey daemon
+  udisks2.service                loaded active running Disk Manager
+  user@1000.service              loaded active running User Manager for UID 1000
+  vncserver-x11-serviced.service loaded active running VNC Server in Service Mode daemon
+  vnstat.service                 loaded active running vnStat network traffic monitor
+  wpa_supplicant.service         loaded active running WPA supplicant

@@ -1,0 +1,27 @@
+network:
+  version: 2
+  wifis:
+    wlan0:
+      renderer: NetworkManager
+      match: {}
+      addresses:
+      - "192.168.100.149/24"
+      nameservers:
+        addresses:
+        - 192.168.100.1
+      routes:
+      - to: "0.0.0.0/0"
+        via: "192.168.100.1"
+      access-points:
+        "laruina_IoT_24":
+          auth:
+            key-management: "psk"
+            password: "4c62ff985f3cfafef54ad67f6764500327e6a616c5bb8840f581002841c48f1f"
+          networkmanager:
+            uuid: "e83dedc8-58dc-3ab6-9092-db7526ccdbd4"
+            name: "netplan-wlan0-laruina_IoT_24"
+            passthrough:
+              proxy._: ""
+      networkmanager:
+        uuid: "e83dedc8-58dc-3ab6-9092-db7526ccdbd4"
+        name: "netplan-wlan0-laruina_IoT_24"
