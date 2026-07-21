@@ -75,11 +75,4 @@
     password = REDACTED
     actions = SET
     instcmds = ALL
-
-[upsmon]
-    password = REDACTED
     upsmon master
-
-[upsmon-remote]
-    password = REDACTED
-    upsmon slave

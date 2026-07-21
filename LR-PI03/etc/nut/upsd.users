@@ -75,6 +75,7 @@
     password = REDACTED
     actions = SET
     instcmds = ALL
+    upsmon master
 
 [upsmon]
     password = REDACTED
