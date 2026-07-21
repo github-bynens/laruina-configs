@@ -65,7 +65,6 @@ dbus-x11					install
 dc						install
 dconf-gsettings-backend:armhf			install
 dconf-service					install
-ddclient					install
 debconf						install
 debconf-i18n					install
 debconf-utils					install

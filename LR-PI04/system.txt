@@ -2,17 +2,12 @@ Linux lr-pi04 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 
 
   avahi-daemon.service           loaded active running Avahi mDNS/DNS-SD Stack
   bluetooth.service              loaded active running Bluetooth service
-  colord.service                 loaded active running Manage, Install and Generate Color Profiles
   cron.service                   loaded active running Regular background program processing daemon
-  cups-browsed.service           loaded active running Make remote CUPS printers available locally
-  cups.service                   loaded active running CUPS Scheduler
   dbus.service                   loaded active running D-Bus System Message Bus
-  ddclient.service               loaded active running Update dynamic domain name service entries
   dhcpcd.service                 loaded active running DHCP Client Daemon
   getty@tty1.service             loaded active running Getty on tty1
   hciuart.service                loaded active running Configure Bluetooth Modems connected by UART
   lightdm.service                loaded active running Light Display Manager
-  ModemManager.service           loaded active running Modem Manager
   nut-driver.service             loaded active running Network UPS Tools - power device driver controller
   nut-monitor.service            loaded active running Network UPS Tools - power device monitor and shutdown controller
   nut-server.service             loaded active running Network UPS Tools - power devices information server

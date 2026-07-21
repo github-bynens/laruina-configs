@@ -6,10 +6,6 @@ alacarte					install
 alsa-topology-conf				install
 alsa-ucm-conf					install
 alsa-utils					install
-apache2						install
-apache2-bin					install
-apache2-data					install
-apache2-utils					install
 apt						install
 apt-listchanges					install
 apt-utils					install
@@ -69,7 +65,6 @@ dbus-x11					install
 dc						install
 dconf-gsettings-backend:armhf			install
 dconf-service					install
-ddclient					install
 debconf						install
 debconf-i18n					install
 debconf-utils					install
@@ -263,10 +258,6 @@ libalgorithm-merge-perl				install
 libaom0:armhf					install
 libapparmor1:armhf				install
 libappstream4:armhf				install
-libapr1:armhf					install
-libaprutil1:armhf				install
-libaprutil1-dbd-sqlite3:armhf			install
-libaprutil1-ldap:armhf				install
 libapt-pkg6.0:armhf				install
 libarchive13:armhf				install
 libargon2-1:armhf				install
@@ -371,7 +362,6 @@ libcupsimage2:armhf				install
 libcurl3-gnutls:armhf				install
 libcurl4:armhf					install
 libdaemon0:armhf				install
-libdata-validate-ip-perl			install
 libdatrie1:armhf				install
 libdav1d4:armhf					install
 libdb5.3:armhf					install
@@ -550,8 +540,6 @@ libimobiledevice6:armhf				install
 libinput-bin					install
 libinput10:armhf				install
 libinstpatch-1.0-2:armhf			install
-libio-socket-inet6-perl				install
-libio-socket-ssl-perl				install
 libip4tc2:armhf					install
 libip6tc2:armhf					install
 libisc-export1105:armhf				install
@@ -601,7 +589,6 @@ liblouisutdml9:armhf				install
 libltc11:armhf					install
 libltdl7:armhf					install
 liblua5.2-0:armhf				install
-liblua5.3-0:armhf				install
 libluajit-5.1-2:armhf				install
 libluajit-5.1-common				install
 liblz4-1:armhf					install
@@ -613,7 +600,6 @@ libmagic1:armhf					install
 libmailutils7:armhf				install
 libmanette-0.2-0:armhf				install
 libmariadb3:armhf				install
-libmath-base85-perl				install
 libmatroska7:armhf				install
 libmaxminddb0:armhf				install
 libmbim-glib4:armhf				install
@@ -648,14 +634,8 @@ libmysofa1:armhf				install
 libncurses6:armhf				install
 libncursesw6:armhf				install
 libndp0:armhf					install
-libnet-ipv6addr-perl				install
-libnet-libidn-perl				install
-libnet-netmask-perl				install
-libnet-ssleay-perl				install
-libnetaddr-ip-perl				install
 libnetfilter-conntrack3:armhf			install
 libnettle8:armhf				install
-libnetwork-ipv4addr-perl			install
 libnewt0.52:armhf				install
 libnfnetlink0:armhf				install
 libnfs13:armhf					install
@@ -842,7 +822,6 @@ libsndfile1:armhf				install
 libsndio7.0:armhf				install
 libsnmp-base					install
 libsnmp40:armhf					install
-libsocket6-perl					install
 libsodium23:armhf				install
 libsord-0-0:armhf				install
 libsoundtouch1:armhf				install
@@ -1108,10 +1087,8 @@ netcat-openbsd					install
 network-manager					install
 nfs-common					install
 nftables					install
-nodejs						install
 ntfs-3g						install
 nut						install
-nut-cgi						install
 nut-client					install
 nut-server					install
 obconf						install
@@ -1138,7 +1115,6 @@ pcmanfm						install
 perl						install
 perl-base					install
 perl-modules-5.32				install
-perl-openssl-defaults:armhf			install
 pi-bluetooth					install
 pi-greeter					install
 pi-language-support				install
