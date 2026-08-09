@@ -8,7 +8,6 @@ Linux lr-pi01 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 
   getty@tty1.service             loaded active running Getty on tty1
   hciuart.service                loaded active running Configure Bluetooth Modems connected by UART
   lightdm.service                loaded active running Light Display Manager
-● ModemManager.service           masked active running ModemManager.service
   nut-driver@LRPI01.service      loaded active running Network UPS Tools - device driver for LRPI01
   nut-monitor.service            loaded active running Network UPS Tools - power device monitor and shutdown controller
   nut-server.service             loaded active running Network UPS Tools - power devices information server
