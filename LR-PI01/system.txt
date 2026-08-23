@@ -1,12 +1,10 @@
 Linux lr-pi01 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64 GNU/Linux
 
   avahi-daemon.service           loaded active running Avahi mDNS/DNS-SD Stack
-  bluetooth.service              loaded active running Bluetooth service
   cron.service                   loaded active running Regular background program processing daemon
   dbus.service                   loaded active running D-Bus System Message Bus
   dhcpcd.service                 loaded active running DHCP Client Daemon
   getty@tty1.service             loaded active running Getty on tty1
-  hciuart.service                loaded active running Configure Bluetooth Modems connected by UART
   lightdm.service                loaded active running Light Display Manager
   nut-driver@LRPI01.service      loaded active running Network UPS Tools - device driver for LRPI01
   nut-monitor.service            loaded active running Network UPS Tools - power device monitor and shutdown controller
