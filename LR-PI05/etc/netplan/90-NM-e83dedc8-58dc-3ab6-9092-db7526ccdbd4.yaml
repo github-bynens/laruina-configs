@@ -4,16 +4,11 @@ network:
     wlan0:
       renderer: NetworkManager
       match: {}
-      addresses:
-      - "192.168.100.149/24"
-      nameservers:
-        addresses:
-        - 192.168.100.1
-      routes:
-      - to: "0.0.0.0/0"
-        via: "192.168.100.1"
+      dhcp4: true
+      macaddress: "permanent"
       access-points:
         "laruina_IoT_24":
+          bssid: "1A:80:63:BB:8B:7A"
           auth:
             key-management: "psk"
             password: "4c62ff985f3cfafef54ad67f6764500327e6a616c5bb8840f581002841c48f1f"
@@ -21,6 +16,8 @@ network:
             uuid: "e83dedc8-58dc-3ab6-9092-db7526ccdbd4"
             name: "netplan-wlan0-laruina_IoT_24"
             passthrough:
+              connection.timestamp: "1793788532"
+              wifi.mac-address-randomization: "1"
               proxy._: ""
       networkmanager:
         uuid: "e83dedc8-58dc-3ab6-9092-db7526ccdbd4"

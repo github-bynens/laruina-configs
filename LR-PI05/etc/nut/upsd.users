@@ -73,8 +73,12 @@
 #
 # See comments in the upsmon.conf(.sample) file for details about this
 # keyword and the difference of NUT secondary and primary systems.
+
+# Moniteur local (upsmon) — gère l'arrêt. Mot de passe : 1Password « lr-piXX · NUT admin »
 [admin]
     password = REDACTED
-    actions = SET
-    instcmds = ALL
     upsmon primary
+
+# Home Assistant — lecture seule. Mot de passe : 1Password « lr-piXX · NUT homeassistant »
+[homeassistant]
+   password = REDACTED

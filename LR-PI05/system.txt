@@ -1,4 +1,4 @@
-Linux LR-PI05 6.18.34+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.34-1+rpt1 (2026-06-09) aarch64 GNU/Linux
+Linux LR-PI05 6.18.50+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.50-1+rpt1 (2026-09-11) aarch64 GNU/Linux
 
   avahi-daemon.service       loaded active running Avahi mDNS/DNS-SD Stack
   bluetooth.service          loaded active running Bluetooth service
@@ -13,6 +13,7 @@ Linux LR-PI05 6.18.34+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.18.34-1+rpt1 (2026-06
   ssh.service                loaded active running OpenBSD Secure Shell server
   systemd-journald.service   loaded active running Journal Service
   systemd-logind.service     loaded active running User Login Management
+  systemd-rfkill.service     loaded active running Load/Save RF Kill Switch Status
   systemd-timesyncd.service  loaded active running Network Time Synchronization
   systemd-udevd.service      loaded active running Rule-based Manager for Device Events and Files
   user@1000.service          loaded active running User Manager for UID 1000
